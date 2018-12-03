@@ -1,8 +1,12 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: #00a7ff;
+    height: 100%;
+}
+
+body {
     font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #356fc3 0%,#6083ce 100%);
 }
 
 .content {
@@ -22,7 +26,7 @@ button {
     border: none;
     width: 100px;
     height: 48px;
-    background: #ef01ff;
+    background: #003233;
     color: #fff;
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
